@@ -1,0 +1,293 @@
+:root{
+    --green:#27ae60;
+    --dark-color:#219150;
+    --black:#444;
+    --light-color:#666;
+    --first-color:#176B87;
+    --second-color:#EEF5FF;
+    --third-color:#B4D4FF;
+    --fourth-color:#86B6F6;
+    --font-color:#15133C;
+    --font-color-1:#191919;
+    --border:1px solid gray;
+  }
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+/* ***************navbar start************ */
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--second-color);
+    position: fixed;
+    /* z-index: 100; */
+    margin-top: -120px;
+    z-index: 1;
+    width: 100%;
+  
+   
+}      
+
+
+
+.navbar ul{
+    display: flex;
+    position: static;
+    top: 0;
+   
+    
+}
+
+li{
+    list-style-type: none;
+    padding: 18px 20px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    font-size: 30px;
+    font-family: sans-serif;
+    /* font-weight: bold; */
+    color: var(--font-color);
+    font-family: "Sofia", sans-serif;
+    /* font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif  ; */
+}
+li:hover{
+    /* padding: 20px 20px; */
+    background-color: #a2bac2;
+    border-radius: 50%;
+}
+
+ .navbar .logoname{
+    margin: 10px 10px;
+    font-size: 2.5em;
+    margin-left: -80px;
+    margin-top: 8px;
+    font-family: "Sofia", sans-serif;
+
+}
+
+.logoname::first-letter{
+    color: #176B87;
+}
+
+.logoname::after{
+    content: "y";
+    color: #176B87;
+}
+
+
+.navbar .icons{
+    margin-top: 28px;
+    margin-right: -80px;
+}
+
+/* *************navbar end************* */
+
+/* ***************card start************* */
+/* .section-3{
+    width: 100%;
+    height: 500px;
+} */
+
+.section-3 .Heading{
+    margin-top: 120px;
+    text-align: center;
+    font-size: 35px;
+}
+
+.Heading-2{
+    margin-top: 40px;
+    text-align: center;
+    font-size: 35px;
+}
+.main-card{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    width: 100%;
+    height: 400px;
+    /* border:1px solid blue; */
+    
+}
+
+
+ .main-card .img-card-book{
+    width: 12vw;
+    height: 30vh;
+    /* border: 1px solid var(--font-color); */
+    margin: 12px;
+    padding: 15px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: all;
+    transition: 1s;
+}
+
+.img-card-book:hover{
+    /* background-color: #666; */
+    transform: scale(1.1);
+}
+
+
+
+
+.main-card .card-1{
+    text-align: center;
+    /* border: 1px solid black; */
+    border-radius: 25px;
+    background-color: #d6dfe2;
+    
+}
+
+
+
+.main-card .card-1 .book-name{
+    font-size: 1em;
+    color: var(--light-color);
+    border: none;
+    width: 15vw;
+    margin-left: .5em;
+}
+
+.main-card .card-1 .writer-name{
+   margin-top: 12px;
+   margin-bottom: 10px;
+   color:rgb(24, 18, 18);
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.main-card .card-1 .price-book  {
+     font-size: .9em;
+     color:var(--first-color);
+     font-weight: bold;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+del {
+    font-size: .8em;
+    color: var(--font-color-1);
+
+}
+
+.main-card .card-1 .btn-2
+{
+    /* margin-left: 10px; */
+    margin-top: 15px;
+    padding:.5em 1em;
+    border-radius: 8px;
+    background-color: var(--first-color);
+    border: none;
+    transition: all;
+    transition: .5s;
+    
+}
+
+.card-1 .btn-2:hover{
+    transform: scale(1.1);
+}
+
+
+.main-card .card-1 .btn-2 a{
+    color: white;
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+}
+
+
+.main-card .card-1 .btn-2:hover{
+    background-color:var(--fourth-color);
+}
+
+.see-all-now-trending{
+    
+    height: 100px;
+   
+    font-size: 1em;
+    text-align: center;
+    color: var(--font-color);
+    margin-top: -20px;
+    
+}
+
+.main-card .card-1 .book-offer{
+    position: absolute;
+    z-index: 0;
+    background-color: #15133C;
+    width: 40px;
+    height: 40px;
+    border: none;
+    color: var(--second-color);
+    margin-top: -220px;
+    margin-left: 190px;
+    border-radius: 50%;
+    padding-top: 10px;
+    font-size:15px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+
+}
+
+
+/* ************crad endd*************** */
+
+/* ****************footer************ */
+
+footer{
+    position:relative;
+     top: 1;
+    width: 100%;
+    height: 350px;
+    background-color: #EEF5FF;
+    /* margin-top: 250px; */
+    
+ }
+ 
+ .footer{
+    
+     display: flex;
+     justify-content: space-around;
+     width: 100%;
+
+ }
+ 
+ .footer .line-1{
+      margin: 61px;
+ }
+ 
+ .footer .line-1 .main{
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    color: #176B87;
+    color: var(--font-color);
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* font-family: "Sofia", sans-serif; */
+ }
+ 
+ .footer .line-1 p{
+    line-height: 1.5;
+     margin: 5px;
+     color: #15133C;
+     font-family: Arial, Helvetica, sans-serif;
+ }
+
+  .Copyright{
+     margin-left: 570px;
+     margin-top: 40px;
+     font-size: 1.1rem;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     color: #535151;
+  }
+
+  /* *************footer end********* */

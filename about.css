@@ -1,0 +1,249 @@
+:root{
+    --green:#27ae60;
+    --dark-color:#219150;
+    --black:#444;
+    --light-color:#666;
+    --first-color:#176B87;
+    --second-color:#EEF5FF;
+    --third-color:#B4D4FF;
+    --fourth-color:#86B6F6;
+    --font-color:#15133C;
+    --font-color-1:#191919;
+    --border:1px solid gray;
+  }
+
+
+
+  /* @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,300;1,300;1,400&family=Poppins:ital,wght@0,100;1,500&family=Rubik+Doodle+Shadow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,300;1,300;1,400&family=Poppins:ital,wght@0,100;1,500&display=swap'); */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+
+
+/* ***************navbar start************ */
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--second-color);
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+  
+   
+}      
+
+
+
+.navbar ul{
+    display: flex;
+    /* position: fixed;
+    top: 0; */
+   
+    
+}
+
+li{
+    list-style-type: none;
+    padding: 18px 20px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    font-size: 30px;
+    font-family: sans-serif;
+    /* font-weight: bold; */
+    color: var(--font-color);
+    font-family: "Sofia", sans-serif;
+    /* font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif  ; */
+}
+
+li:hover{
+    /* padding: 20px 20px; */
+    background-color: #a2bac2;
+    border-radius: 50%;
+}
+ .navbar .logoname{
+    margin: 10px 10px;
+    font-size: 2.5em;
+    margin-left: -80px;
+    margin-top: 8px;
+    font-family: "Sofia", sans-serif;
+
+}
+
+.logoname::first-letter{
+    color: #176B87;
+}
+
+.logoname::after{
+    content: "y";
+    color: #176B87;
+}
+
+
+.navbar .icons{
+    margin-top: 28px;
+    margin-right: -80px;
+}
+
+
+/* **************navbar end************** */
+/* 
+**************about start*********** */
+.aboutUs{
+    width: 100%;
+    height: 450px;
+    margin-top: 80px;
+}
+ .aboutUs .about{
+    width: 600px;
+    height: 300px;
+    padding: 18px;
+    border: none;
+    margin: -355px 773px;
+    border-radius: 12px;
+    background-color: var(--third-color);
+
+
+}
+
+.aboutUs img{
+    width: 650px;
+    height: 400px;
+    margin-left: 70px;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+
+.aboutUs .about h3{
+       font-weight: bold;
+       margin: 12px;
+       font-size: 35px;
+       font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.aboutUs .about p{
+  font-size: 20px;
+  margin: 12px;
+  text-align: justify;
+  line-height: 30px;
+}
+
+.btn-2{
+    font-size: 14px;
+    margin: 12px;
+    padding: 9px 22px;
+    background-color: var(--font-color);
+    border-radius: 7px;
+    color: white;
+    border: none;
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+}
+
+.btn-2:hover{
+    background-color: #47408f;
+}
+/* 
+**************about end*********** */
+/* 
+**************contact start*********** */
+
+.contact{
+    position:absolute;
+    top: 1;
+    width: 100%;
+    height: 250px;
+    background-color: #27ae60;
+    text-align: center;
+    /* color: aliceblue; */
+    background-color: rgb(28, 25, 25);
+    
+}
+.contact h2{
+    font-size: 30px;
+    margin: 50px 0px 14px 0px;
+    color: var(--second-color);
+}
+
+.contact p{
+    font-size: 18px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color:white;
+}
+ 
+
+.contact .btn-3{
+    margin-top: 20px;
+    padding: 10px 45px;
+    font-size: 20px;
+    background-color: var(--first-color);
+    border: none;
+    border-radius: 5px 15px;
+}
+
+.contact .btn-3 a{
+    text-decoration: none;
+    /* color: var(--third-color); */
+    color: white;
+}
+
+.contact .btn-3:hover{
+    background-color: #86B6F6;
+}
+
+/* ****************footer************ */
+
+footer{
+    position:relative;
+     top: 1;
+    width: 100%;
+    height: 350px;
+      background-color: #EEF5FF;
+    margin-top: 250px;
+    
+ }
+ 
+ .footer{
+    
+     display: flex;
+     justify-content: space-around;
+     width: 100%;
+
+ }
+ 
+ .footer .line-1{
+      margin: 61px;
+ }
+ 
+ .footer .line-1 .main{
+    font-size: 1.2rem;
+    text-transform: uppercase;
+ 
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* font-family: "Sofia", sans-serif; */
+ }
+ 
+ .footer .line-1 p{
+    line-height: 1.5;
+    color: #15133C;
+     margin: 5px;
+     font-family: Arial, Helvetica, sans-serif;
+ }
+
+  .Copyright{
+     margin-left: 570px;
+     margin-top: 40px;
+     font-size: 1.1rem;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     color: #535151;
+  
+  }
